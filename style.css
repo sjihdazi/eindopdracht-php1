@@ -5,12 +5,13 @@
 
 body{
     font-family: "Poiret One", sans-serif, Arial, serif;
-    background-color: grey;
+    background-image: url('colorful.jpg');
+    background-size: cover;
 }
 
 h1{
     /*color: #2196F3;*/
-    font-size: 3.56rem;
+    font-size: 2.56rem;
     line-height: 110%;
     margin: 1.78rem 0 1.424rem 0;
     text-align: center;
@@ -22,7 +23,6 @@ h1{
 }
 
 .section{
-	background-color: lightgrey;
 	height: auto;
     padding: 10px 10px 40px 10px;
 	margin-bottom: 40px;
@@ -34,19 +34,11 @@ h1{
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 #voorstellen #my_foto{
     display: flex;
-}
-
-#hobby .content{
-	justify-content: space-evenly;
-}
-
-#voorstellen .content{
-    justify-content: space-around ;
 }
 
 .menu-wrapper{
@@ -93,4 +85,26 @@ h1{
     height: 245px;
     border-radius: 5px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+#card{
+    min-width: 300px;
+    max-width: 588px;
+    min-height: 150px;
+    padding: 10px;
+    margin: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+#card p{
+    margin: 10px 0px 10px 0px;
+}
+#weather p{
+
 }
