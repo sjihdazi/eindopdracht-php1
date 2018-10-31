@@ -149,7 +149,7 @@
                                 echo "<p>You typed this in the text input: ".$_POST['text']."</p>";
                                 echo "<p>You typed this in the textarea ".$_POST['textarea']."</p>";
                             }
-                            else{
+                            elseif (isset($_POST['submit']) && !empty($_POST['vehicle1'])) {
                                 echo "<p>You are a ".$_POST['gender']." who would like to drive a ".$_POST['cars'].". And you do not own a bike.</p>";
                                 echo "<p>You typed this in the text input: ".$_POST['text']."</p>";
                                 echo "<p>You typed this in the textarea ".$_POST['textarea']."</p>";
